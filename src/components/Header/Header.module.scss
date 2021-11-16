@@ -1,0 +1,10 @@
+.wrapper {
+    display: grid;
+    grid-template-columns: 15rem 1fr 12rem;
+    align-items: center;
+    padding: 4rem 4rem;
+}
+
+.logo {
+    width: 100%;
+}
