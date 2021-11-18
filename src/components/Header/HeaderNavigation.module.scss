@@ -1,0 +1,28 @@
+.wrapper {
+    margin-left: 4rem;
+    padding: 0;
+    display: grid;
+    flex-shrink: 1;
+    grid-template-columns: 120px 120px 120px;
+    align-items: center;
+
+  }
+
+.navItem {
+
+    flex-shrink: 1;
+    list-style: none;
+    font-size: 1.2rem;
+    text-transform: lowercase;
+    align-items: flex-end;
+
+
+    &Link {
+        text-decoration: none;
+        color: #818181;
+
+        &Active {
+            font-weight: 700;
+        }
+    }
+}
