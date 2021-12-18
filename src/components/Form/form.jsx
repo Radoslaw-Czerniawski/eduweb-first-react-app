@@ -4,7 +4,7 @@ import styles from "./form.module.scss"
 import Input from "../Input/Input";
 import Button from '../Button/Button';
 import Title from '../Title/Title';
-import Radio from './FormRadio.js';
+import Radio from './FormRadio.jsx';
 
 const types = {
   twitter: "twitter",
